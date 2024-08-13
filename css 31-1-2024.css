@@ -1,0 +1,168 @@
+/* div {
+  width: 400px;
+  height: 400px;
+  color: white;
+  border: solid 1px black;
+
+} */
+
+/* 2 */
+
+/* .assign-2-shape-1 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-repeat: no-repeat;
+}
+
+.assign-2-shape-2 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-repeat: repeat-y;
+}
+
+.assign-2-shape-3 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-repeat: repeat-x;
+}
+
+.assign-2-shape-4 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-repeat: repeat;
+} */
+
+/* 3 */
+
+/* .assign-2-shape-1 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-position:left top;
+  background-repeat: no-repeat;
+}
+
+.assign-2-shape-2 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+.assign-2-shape-3 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+.assign-2-shape-4 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+}  */
+
+/* 4 */
+
+/* .assign-2-shape-1 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.assign-2-shape-2 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-repeat: repeat-y;
+  background-size: 80%;
+  background-position: right;
+}
+
+.assign-2-shape-3 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 80%;
+}
+
+.assign-2-shape-4 {
+  background-image: url(Media/Images/css-assignment-5-8.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}   */
+
+
+/* (9 - 12) */
+
+/* 1 */
+
+/* div {
+  display: inline-block;
+  outline: black solid 5px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.s1 {
+  border: 5px solid red;
+}
+
+.s2{
+border-style: solid;
+border-width: 5px;
+border-color: blue green;
+}
+
+.s3 {
+  border-style: dashed;
+  border-color: red green blue yellow;
+  border-width: 5px;
+} */
+
+/* 2 */
+
+/* .element {
+  margin:25px;
+  width: 400px;
+  background-color: lightgrey;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: lightgrey ;
+  outline-width: 10px;
+
+}
+
+.element-1 {
+  border-left-style: solid;
+  border-left-color:crimson;
+  border-left-width: 5px;
+}
+
+.element-2 {
+visibility: hidden;
+}
+
+.element-3 {
+  border-left-style: solid;
+  border-left-color:cadetblue;
+  border-left-width: 5px;
+} */
+
+/* (13 - 16) */
+
+/* 1 */
+
+/* .parent .child .title {
+  color: red;
+}
+
+.parent .title {
+  color: blue;
+}
+
+p , .title {
+  color: green;
+} */
+
+/* 2 */
+
+div {
+  width: fit-content;
+  max-width: 400px;
+  background-color: brown;
+  margin: 10px;
+  padding: 10px;
+  color:white;
+  max-height: 40px;
+  overflow-y: hidden;
+}
+

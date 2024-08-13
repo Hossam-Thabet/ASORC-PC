@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+  <style>
+    .card {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+    .card .box {
+      display: flex;
+      position: relative;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .card .box::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: -10px;
+      width: 65%;
+      height: 2px;
+      background-color: red;
+    } 
+    .card .box img {
+      width: 100px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      max-width: 100%;
+    }
+    .card .box img ~ h3 {
+      position: absolute;
+      font-size: 14px;
+      bottom: -10px;
+      right: -10px;
+    }
+
+  </style>
+ 
+</head>
+<body>
+  <div class="stat">
+    <div class="container">
+      <div class="card">
+        <div class="box">
+          <img src="../Media/Images/Cat.jpg" alt="">
+          <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+          <h3>John Doe, CEO</h3>
+        </div>
+        <div class="box">
+          <img src="../Media/Images/Cat.jpg" alt="">
+          <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+          <h3>John Doe, CEO</h3>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

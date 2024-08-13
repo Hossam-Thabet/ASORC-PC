@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.custom-checkbox {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  appearance: none;
+}
+.custom-checkbox .checkmark {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  display: inline-block;
+  border-radius: 3px;
+  background:
+  url(https://upload.wikimedia.org/wikipedia/commons/6/68/Blue_checkbox-checked.svg)
+  center /1900% no-repeat ;
+  transition: 0.5s ease;
+
+}
+
+.custom-checkbox input {
+  /* appearance: none;  */
+  display:none;
+}
+
+.custom-checkbox input:checked + .checkmark {
+  background-size: 100%;
+  transition: 0.3s cubic-bezier(0.8, 0.21, 0.86, 1.29);
+}

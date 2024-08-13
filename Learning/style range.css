@@ -1,0 +1,23 @@
+* , *::after , *::before {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+
+input[type="range"]::before {
+  content:attr(min);
+}
+
+input[type="range"]::after {
+  content:attr(max);
+}
