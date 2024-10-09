@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p {
+      margin: 0;
+      padding: 0.5rem;
+    }
+    .grid__container {
+      display: grid;
+      border: 1px solid blue;
+    }
+
+    .flex__container {
+      display: flex;
+      border: 1px solid red;
+      width: 400px;
+      max-width: 100%;
+    }
+
+    .child1 {
+      background-color: aqua;
+    }
+
+    .child2 {
+      background-color: cadetblue;
+      place-items: ;
+    }
+
+    .child3 {
+      background-color: chartreuse;
+    }
+  </style>
+</head>
+<body>
+  <!-- <h2>Grid default</h2>
+  <p></p><span>234</span><p>123</p>
+  <div class="grid__container">
+    <div class="child1">1</div>
+    <div class="child2">2</div> 
+    <div class="child3">3</div>
+  </div> -->
+<hr>
+<h2>Flex default</h2>
+<h3>parent properties</h3>
+  <p>flex-direction: row ;</p>
+  <p>flex-wrap: nowrap ;</p>
+  <h3>(shorthand) flex-flow: flex-direction flex-wrap ;</h3>
+  <p>justify-content: flex-start ;</p>
+  <p>align-items: stretch ;</p>
+  <p>align-content</p>
+  <h3>child prooperties</h3>
+  <p>order</p>
+  <p>flex-basis: auto;</p>
+  <p>flex-grow: 0 ;</p>
+  <p>flex-shrink: 1 ;</p>
+  <h3>(shorthand) flex : flex-grow flex-shrink flex-basis ;</h3>
+  <div class="flex__container">
+    <div class="child1">1</div>
+    <div class="child2">2</div> 
+    <div class="child3">3</div>
+  </div>
+</body>
+</html>
