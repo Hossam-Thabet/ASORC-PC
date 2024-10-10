@@ -27,24 +27,50 @@
 
     .child2 {
       background-color: cadetblue;
-      place-items: ;
     }
 
     .child3 {
       background-color: chartreuse;
     }
+    li::marker {
+      font-size: x-large;
+      color: aqua;
+    }
   </style>
 </head>
 <body>
-  <!-- <h2>Grid default</h2>
-  <p></p><span>234</span><p>123</p>
+   <h2>Grid Layout</h2>
   <div class="grid__container">
     <div class="child1">1</div>
     <div class="child2">2</div> 
     <div class="child3">3</div>
-  </div> -->
+  </div> 
+  <h2>Grid default & properties</h2>
+   <p>By default, CSS Grid uses a single column</p>
+   <h3>parent properties</h3>
+   <p>grid-template-column</p>
+   <p>grid-template-row</p>
+   <p>grid-template-area</p>
+   <p>justify-content: start</p>
+   <p>justify-items: stretch</p>
+   <p>align-content</p>
+   <P>align-items</P>
+   <h3>child prooperties</h3>
+   <p>grid-row</p>
+   <p>grid-column</p>
+   <p>grid</p>
+   <p>grid-area</p>
+   <p>justify-self</p>
+   <p>align-self</p>
 <hr>
+<h2>Flex Layout</h2>
+<div class="flex__container">
+  <div class="child1">1</div>
+  <div class="child2">2</div> 
+  <div class="child3">3</div>
+</div>
 <h2>Flex default</h2>
+<p>By default, items will stack side-by-side in a row</p>
 <h3>parent properties</h3>
   <p>flex-direction: row ;</p>
   <p>flex-wrap: nowrap ;</p>
@@ -58,10 +84,5 @@
   <p>flex-grow: 0 ;</p>
   <p>flex-shrink: 1 ;</p>
   <h3>(shorthand) flex : flex-grow flex-shrink flex-basis ;</h3>
-  <div class="flex__container">
-    <div class="child1">1</div>
-    <div class="child2">2</div> 
-    <div class="child3">3</div>
-  </div>
 </body>
 </html>
